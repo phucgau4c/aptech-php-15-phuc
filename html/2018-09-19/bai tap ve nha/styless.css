@@ -1,0 +1,71 @@
+.Head {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div1 {
+    height: 70%;
+    width: 30%;
+    background-color: red;
+}
+.div2 {
+    height: 70%;
+    width: 60%;
+    background-color: pink;
+}
+.mid {
+    height: 100;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.mid1 {
+    height:100;
+    width: 95%;
+    background-color:orange
+}
+.second {
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div3 {
+    height: 80%;
+    width: 40%;
+    background-color:blue;
+    justify-content: space-around; align-items: center;
+    align-items: center;
+}
+
+.div4 {
+    height: 80%;
+    width: 23%;
+    background-color:blue;
+}
+.div5 {
+    height: 80%;
+    width: 23%;
+    background-color:blue;
+}
+.bot {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bot1 {
+    height: 80%;
+    width: 45%;
+    background-color:yellow;
+}
+.bot2 {
+    height: 80%;
+    width: 45%;
+    background-color:yellow;
+}
