@@ -1,0 +1,11 @@
+@media screen and (max-width:767px) {
+    .Fa-font-size-custom::before{
+        font-size: 80px !important;
+    }
+} 
+
+@media screen and (min-width: 768px){
+    .Fa-font-size-custom::before{
+        font-size: 40px !important;
+    }
+}

@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <div id="block"  style="height:200px; width:100%; background-color:red">
+        </div>
+        <button type="button" id="hien">Hiện</button>
+        <button type="button" id="an">Ẩn</button>
+    </body>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="text3.js"></script>
+    <script>
+        document.getElementById("an").onclick = function () {
+            document.getElementById("block").style.display = 'none';
+        };
+        document.getElementById("hien").onclick = function() {
+            document.getElementById("block").style.display = 'block';
+        };
+    </script>
+</html>

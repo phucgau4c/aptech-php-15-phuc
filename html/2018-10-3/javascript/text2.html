@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <img id="anh" src="pic_bulboff.gif">
+        <button onclick="den()">
+            Công tắc
+        </button>
+        <script>
+            var anh = document.getElementById('anh')
+            function den() {
+                if (anh.src.includes('pic_bulboff.gif')) {
+                    anh.src = "pic_bulbon.gif"
+                }
+                else {
+                    anh.src = "pic_bulboff.gif"
+                }
+            }
+        </script>
+    </body>
+</html>
