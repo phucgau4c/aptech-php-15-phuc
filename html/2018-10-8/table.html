@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <div id="tb"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            var table = '<table id="js-table" class="table"></table>';
+            $('#tb').append(table);
+
+            var thead = '<thead id="js-thead"></thead>';
+            $(thead).appendTo('#js-table');
+            var tr = '<tr id="js-thead-tr"></tr>';
+            $(tr).appendTo('#js-thead');
+            var th = '<th>#</th><th>Tên</th><th>Gmail</th>';
+            $(th).appendTo('#js-thead-tr');
+
+            var tbody = '<tbody id="js-tbody"></tbody>';
+            $('#js-thead').after(tbody);
+            var trbody = '<tr id="js-trbody">';
+            $(trbody).appendTo('#js-tbody');
+            var thbody = '<th>1</th>';
+            var tdbody = '<td>PhucLe</td><td>Phucleryze@gmail.com</td>';
+            $('#js-trbody').append(thbody, tdbody);
+        </script>
+    </body>
+</html> 

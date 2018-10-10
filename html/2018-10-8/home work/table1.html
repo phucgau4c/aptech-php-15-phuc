@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./bostrap.css">
+    </head>
+    <body>
+        <div id="tab"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            var table = '<table id="js-table" class="table" ></table>';
+            $('#tab').append(table);
+
+            var thead = '<thead id="js-thead"></thead>';
+            $(thead).appendTo('#js-table');
+            var tr = '<tr id="js-tr"></tr>';
+            $(tr).appendTo('#js-thead');
+            var th = '<th>Stt</th><th>Tên</th><th>email</th><th>nơi ở</th><th>sđt</th>';
+            $(th).appendTo('#js-tr');
+
+            var tbody = '<tbody id="js-tbody"></tbody>';
+            $('#js-thead').after(tbody);
+            var trbody = '<tr id="js-trbody">';
+            $(trbody).appendTo('#js-tbody');
+            var thbody = '<th>1</th>';
+            var tdbody = '<td>PhucLe</td><td>Phucleryze@gmail.com</td><td>quảng nam</td><td>0123456789</td>';
+            $('#js-trbody').append(thbody, tdbody);
+
+            $('#js-thead').addClass('bg-primary');
+        </script>
+    </body>
+</html>
